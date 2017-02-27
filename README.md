@@ -5,6 +5,9 @@ This is a small Gorilla Mux application that outputs "Gorilla!".
 ## Basics
 
 - Clone this repository
+- Install dependencies
+- - w/ `Glide` --> `glide install`
+- - **or** `go get github.com/gorilla/mux`
 - Build docker image
 - - Inside the repository build command: `docker build -t hello-gorilla .`
 - Run docker image
